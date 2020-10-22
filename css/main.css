@@ -100,7 +100,7 @@ line-height: 1.19;
 }
 .comands-text-secondary{
     color: var(--primary-text-color);
-    font-weight: normal;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.19;
 }
