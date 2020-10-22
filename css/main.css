@@ -1,0 +1,135 @@
+:root{
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --primary-link-color:#212121;
+    --secondary-link-color:#2196F3;
+      }
+body {
+        background-color: #E5E5E5;
+    font-family: Roboto;
+    font-style: normal;
+}
+.currentLink {
+    color: var(--secondary-link-color); 
+}
+/* Убираем подчёркивание */
+
+a {
+    text-decoration: none; 
+   }
+
+ul { list-style: none; }
+/* logo */
+.logo .logo-web{
+    color: #2196F3;
+    font-family: Raleway;
+}
+.logo .logo-studio-header{
+    color: var(--primary-link-color);
+    font-family: Raleway;
+}
+.logo .logo-studio-footer{
+    color: #FFFFFF;
+    font-family: Raleway;
+}
+
+.site-nav .link{
+    color: var(--primary-text-color);
+    font-style: normal; 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.site-nav .link:hover {
+    color: var(--secondary-link-color); 
+}
+.site-nav .link:focus{
+    color: var(--secondary-link-color);
+}
+
+.central-inscription {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
+    text-align: center; 
+}
+
+
+
+/*Button*/
+.button{
+    color: var(--primary-link-color);
+    font-weight: bold;
+ font-size: 16px;
+line-height: 1.87;
+
+}
+.button:hover {
+    background: var(--secondary-link-color); 
+    color: #FFFFFF;
+}
+.button:focus { 
+    background: var(--secondary-link-color); 
+    color: #FFFFFF;
+}
+/*Blokstext*/
+.blokstext-primary{
+    color: var(--primary-link-color);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+}
+.blokstext-secondary{
+    color: var(--primary-text-color);
+ font-size: 14px;
+line-height: 1.71px;
+}
+.images-block-text{
+    color: var(--primary-link-color);
+    font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+.comands-text-primary{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.comands-text-secondary{
+    color: var(--primary-text-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+}
+/*Contacts*/
+.adress{
+color: #FFFFFF;;
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+.adress:hover {
+    color: var(--secondary-link-color); 
+}
+.adress:focus{
+    color: var(--secondary-link-color);
+}
+.contacts{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+.contacts:hover {
+    color: var(--secondary-link-color); 
+}
+.contacts:focus{
+    color: var(--secondary-link-color);
+}
+.footer {
+    background:#2F303A;
+   
+  }
