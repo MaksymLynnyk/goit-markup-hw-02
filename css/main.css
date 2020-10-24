@@ -10,7 +10,7 @@ body {
     font-style: normal;
 }
 .currentLink {
-    color: var(--primary-link-color); 
+    color: var(--primary-text-color); 
 }
 /* Убираем подчёркивание */
 
